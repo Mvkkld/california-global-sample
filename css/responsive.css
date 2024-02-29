@@ -1,0 +1,119 @@
+@media only screen and (max-width: 1920px) and (min-width: 1500px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {}
+
+@media only screen and (max-width: 1445px) {}
+
+@media only screen and (max-width: 1366px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    html {
+        font-size: 14px;
+    }
+    .shirtCard figure img.img-fluid.w-100 {
+        height: 365px;
+    }
+    .featureCard figure img {
+        height: 235px;
+        width: 100%;
+    }
+    .madeContent h2 {
+        font-size: 2.5rem;
+    }
+    .maidMain {
+        padding: 4rem 0;
+    }
+    .openingHours {
+        padding: 2rem 1rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    html {
+        font-size: 13px;
+    }
+    .navbar-nav {
+        text-align: center;
+        padding: 0 0 10px;
+    }
+    .form-inline {
+        justify-content: center;
+        padding: 0 0 10px;
+    }
+    .featureMain {
+        padding: 2rem 0;
+    }
+    .shirtCard figure img.img-fluid.w-100 {
+        height: 285px;
+    }
+    .shirtCard .shirtContent h2 {
+        font-size: 2.5rem;
+    }
+    .madeContent h2 {
+        font-size: 2.2rem;
+        margin: 0 0 10px;
+    }
+    .madeContent p {
+        margin: 0 0 20px;
+    }
+    .maidMain {
+        padding: 3rem 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    html {
+        font-size: 12px;
+    }
+    .shirtCard figure img.img-fluid.w-100 {
+        height: auto;
+    }
+    .madeContent p {
+        font-size: 15px;
+    }
+    .footerContent {
+        margin-bottom: 1.5rem;
+    }
+    footer {
+        padding: 2.5rem 0;
+    }
+    .openingHours {
+        padding: 2rem 2rem;
+        margin-bottom: 2rem;
+    }
+    form.contactForm label {
+        font-size: 15px;
+    }
+    form.contactForm {
+        margin-top: 1rem;
+    }
+    form.contactForm input {
+        margin: 0 0 20px;
+    }
+    form.contactForm textarea {
+        margin: 0 0 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .featureCard figure img {
+        width: 100%;
+        height: auto;
+    }
+    .featureCard {
+        margin-bottom: 2rem;
+    }
+    .shirtCard .shirtContent h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 320.98px) {}
